@@ -7,20 +7,20 @@ To write a python program to implement multivariate linear regression and predic
 
 
 ## Algorithm:
-### Step1 Import required libraries and load the dataset.
+### Step1 : Import required libraries and load the dataset.
 <br>
 
-### Step2 Define the feature matrix � and target vector �.
+### Step2 : Define the feature matrix � and target vector �.
 
 <br>
 
-### Step3 Split the dataset into training and testing sets.
+### Step3 :Split the dataset into training and testing sets.
 <br>
 
-### Step4  Create a Linear Regression model and train it using training data.
+### Step4  :Create a Linear Regression model and train it using training data.
 <br>
 
-### Step5  Predict outputs, evaluate the model, and plot the residual errors.
+### Step5 : Predict outputs, evaluate the model, and plot the residual errors.
 <br>
 
 ## Program:
@@ -38,10 +38,6 @@ regression.fit(x,y)
 print(regression.coef_)
 print(regression.intercept_)
 print(regression.predict([[3300,1300]]))
-
-
-
-
 
 ```
 ## Output:
